@@ -63,14 +63,6 @@ export const INITIAL_STATIONS = [
   { id: 5, name: "Bar & Vintage Sommelier", available: true, currentTask: "Decanting Margaux 2015", estRemaining: 0 },
 ];
 
-export const WORKFLOW_DAG_TASKS = [
-  { id: 1, name: "Order Placed & Sommelier Verification", duration: 2, dependencies: [], level: 0 },
-  { id: 2, name: "Grand Hearth Kitchen Cooking", duration: 15, dependencies: [1], level: 1 },
-  { id: 3, name: "Bar & Beverage Elixir Prep", duration: 5, dependencies: [1], level: 1 },
-  { id: 4, name: "Plating & Golden Quality Inspection", duration: 3, dependencies: [2, 3], level: 2 },
-  { id: 5, name: "White-Glove Butler Serving / Dispatch", duration: 5, dependencies: [4], level: 3 },
-];
-
 export const INITIAL_METRICS = {
   totalCustomersArrived: 18,
   totalCustomersSeated: 14,

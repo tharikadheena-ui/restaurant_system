@@ -4,7 +4,7 @@ import { Play, RotateCcw, ChevronRight, CheckCircle2 } from 'lucide-react';
 const SHIFT_STAGES = [
   { id: 1, roman: 'I', label: 'GUESTS ARRIVE IN HALL', desc: 'Distinguished parties arrive and are inscribed into the priority register.' },
   { id: 2, roman: 'II', label: 'MIN-HEAP BEST-FIT SEATING', desc: 'Optimal salon tables allocated with minimal excess capacity.' },
-  { id: 3, roman: 'III', label: 'ORDERS LOGGED TO HEARTH', desc: 'Culinary orders inscribed and staged according to DAG precedence.' },
+  { id: 3, roman: 'III', label: 'ORDERS LOGGED TO HEARTH', desc: 'Culinary orders inscribed and dispatched to active kitchen stations.' },
   { id: 4, roman: 'IV', label: 'GRAND HEARTH PREPARATION', desc: 'Cooking stations active; courses transition from Preparing to Ready.' },
   { id: 5, roman: 'V', label: 'BUTLER SERVICE & CONCLUSION', desc: 'White-glove service completed; tables vacated and reset.' },
 ];

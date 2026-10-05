@@ -5,10 +5,8 @@ import {
   Users, 
   UtensilsCrossed, 
   Flame, 
-  Compass, 
   Sparkles, 
   Scale,
-  Scroll,
   Clock
 } from 'lucide-react';
 
@@ -18,9 +16,8 @@ const NAV_ITEMS = [
   { id: 'queue', label: 'QUEUE', icon: Users, glyph: 'III' },
   { id: 'orders', label: 'ORDERS', icon: UtensilsCrossed, glyph: 'IV' },
   { id: 'kitchen', label: 'KITCHEN', icon: Flame, glyph: 'V' },
-  { id: 'workflow', label: 'WORKFLOW', icon: Compass, glyph: 'VI' },
-  { id: 'simulation', label: 'SIMULATION', icon: Sparkles, glyph: 'VII' },
-  { id: 'metrics', label: 'METRICS', icon: Scale, glyph: 'VIII' },
+  { id: 'simulation', label: 'SIMULATION', icon: Sparkles, glyph: 'VI' },
+  { id: 'metrics', label: 'METRICS', icon: Scale, glyph: 'VII' },
 ];
 
 export default function Navbar({ activeTab, setActiveTab, currentTime }) {

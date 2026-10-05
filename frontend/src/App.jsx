@@ -5,7 +5,6 @@ import TableManagement from './components/TableManagement';
 import WaitingQueue from './components/WaitingQueue';
 import OrderManagement from './components/OrderManagement';
 import KitchenOperations from './components/KitchenOperations';
-import WorkflowDAG from './components/WorkflowDAG';
 import SimulationEngine from './components/SimulationEngine';
 import MetricsDisplay from './components/MetricsDisplay';
 
@@ -132,10 +131,6 @@ export default function App() {
               stations={stations}
               setStations={setStations}
             />
-          )}
-
-          {activeTab === 'workflow' && (
-            <WorkflowDAG />
           )}
 
           {activeTab === 'simulation' && (
